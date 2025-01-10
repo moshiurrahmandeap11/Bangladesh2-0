@@ -6,106 +6,320 @@
 }
 /* font installation done */
 
-
 /* universal selector */
 
-*{
-    margin: 0;
-    padding: 0;
-    color: rgb(245, 245, 245);
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 245, 245);
 }
 /* nav bar design */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 nav .logo {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    margin-left: 160px;
-    padding: 31px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin-left: 160px;
+  padding: 31px 0;
 }
 
-nav .logo a{
-    text-decoration: none;
-    color: rgb(14, 14, 14);
+nav .logo a {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
 }
 
-nav .btn-holder{
-    padding: 24px 0;
+nav .btn-holder {
+  padding: 24px 0;
 }
 
-nav .btn{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgb(0, 106, 80);
-    padding: 15px 30px;
-    box-sizing: border-box;
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 8px;
-    margin-right: 160px;
+nav .btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(0, 106, 80);
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  margin-right: 160px;
 }
 
 /* nav bar end here */
 
 /* Banner section start here */
 
-
-.hero{
-    width: 1280px;
-    height: 560px;
-    background-color: rgb(198, 228, 214);
-    margin: 0 auto;
-    border-radius: 24px;
-    margin-bottom: 80px;
+.hero {
+  width: 1280px;
+  height: 560px;
+  background-color: rgb(198, 228, 214);
+  margin: 0 auto;
+  border-radius: 24px;
+  margin-bottom: 80px;
 }
 
-.hero-container{
-    padding: 80px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 64px;
+.hero-container {
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
 }
 
-.hero-intro h5{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: rgba(14, 14, 14, 0.5);
-    margin-bottom: 16px;
-    text-align: left;
+.hero-intro h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+  text-align: left;
 }
 
-.hero-intro h1{
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 67px;
-    color: rgb(14, 14, 14);
-    margin-bottom: 24px;
-    text-align: left;
+.hero-intro h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 67px;
+  color: rgb(14, 14, 14);
+  margin-bottom: 24px;
+  text-align: left;
 }
 
-.hero-intro .hero-btn{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgb(255, 255, 255);
-    padding: 17px 34px;
-    background-color: rgb(0, 106, 80);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    text-align: left;
+.hero-intro .hero-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  padding: 17px 34px;
+  background-color: rgb(0, 106, 80);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  text-align: left;
 }
 
 /* Banner section end here */
 
+/* share class of pob */
+
+.common_h4_title {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  text-align: left;
+  margin-bottom: 12px;
+  background-color: rgb(255, 255, 255);
+}
+
+.common-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.7);
+  background-color: rgb(255, 255, 255);
+}
+
+.common-card {
+  width: 302px;
+  height: 290px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
 /*  Pillars of "Bangladesh 2.0" start here */
 
+.pob {
+  width: 1280px;
+  height: 324px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.pob_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+.pob .pob_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(14, 14, 14);
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+/*  Pillars of "Bangladesh 2.0" end here */
+
+/* shared item of vision of future */
+
+.vof-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(14, 14, 14);
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.vof-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.7);
+  background-color: transparent;
+  margin-bottom: 32px;
+}
+
+.vof-common-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.7);
+  background-color: transparent;
+  margin-bottom: 24px;
+}
+
+.common-box {
+  width: 410px;
+  height: 360px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.digital h4,
+.greenn h4,
+.modern h4 {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  text-align: left;
+  margin-bottom: 12px;
+  background-color: transparent;
+}
+
+.g-btn,
+.m-btn,
+.d-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+  padding: 11px 22px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* The Vision of Future section start here */
+.vof {
+  width: 1280px;
+  height: 765px;
+  margin: 0 auto;
+}
+
+.vof_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+.digital {
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+}
+
+.digital img {
+  margin-bottom: 25px;
+  background: transparent;
+}
+
+.greenn {
+  background-color: rgb(198, 228, 214);
+  padding: 32px;
+}
+
+.greenn img {
+  margin-bottom: 25px;
+  background: transparent;
+}
+
+.modern {
+  background-color: rgb(247, 235, 207);
+  padding: 25px;
+}
+
+.modern img {
+  margin-bottom: 25px;
+  background: transparent;
+}
+
+.d-btn {
+  background: rgb(84, 144, 245);
+}
+
+.g-btn {
+  background: rgb(9, 161, 92);
+}
+
+.m-btn {
+  background: rgb(255, 194, 57);
+}
+
+/* The Vision of Future section end here */
+
+/* quote section start here */
+
+.quote {
+  width: 1280px;
+  height: 256px;
+  margin: 0 auto;
+  margin-top: -270px;
+}
+
+.quote-container{
+    padding: 48px 24px;
+}
+
+.quote-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: transparent;
+  margin-bottom: 12px;
+}
+
+.quote-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 4px;
+}
+
+.quote-sub-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
+    background-color: transparent;
+}
