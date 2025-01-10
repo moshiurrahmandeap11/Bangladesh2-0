@@ -1,0 +1,111 @@
+/* font installation */
+
+.fira-sans-font {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+/* font installation done */
+
+
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(245, 245, 245);
+}
+/* nav bar design */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 160px;
+    padding: 31px 0;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+nav .btn-holder{
+    padding: 24px 0;
+}
+
+nav .btn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(0, 106, 80);
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    margin-right: 160px;
+}
+
+/* nav bar end here */
+
+/* Banner section start here */
+
+
+.hero{
+    width: 1280px;
+    height: 560px;
+    background-color: rgb(198, 228, 214);
+    margin: 0 auto;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+.hero-container{
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.hero-intro h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.hero-intro h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+    color: rgb(14, 14, 14);
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.hero-intro .hero-btn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    padding: 17px 34px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: left;
+}
+
+/* Banner section end here */
+
+/*  Pillars of "Bangladesh 2.0" start here */
+
