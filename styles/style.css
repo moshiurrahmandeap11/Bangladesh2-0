@@ -26,7 +26,7 @@ nav .logo {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
-  margin-left: 160px;
+  margin-left: 230px;
   padding: 31px 0;
 }
 
@@ -49,6 +49,14 @@ nav .btn {
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
   margin-right: 160px;
+  transition: .3s;
+}
+
+nav .btn:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 /* nav bar end here */
@@ -101,6 +109,15 @@ nav .btn {
   outline: none;
   border: none;
   text-align: left;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.hero-intro .hero-btn:hover{
+  background-color: transparent;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  color: rgb(0, 106, 80);
 }
 
 /* Banner section end here */
@@ -116,6 +133,11 @@ nav .btn {
   text-align: left;
   margin-bottom: 12px;
   background-color: rgb(255, 255, 255);
+  transition: .3s;
+}
+
+.common_h4_title:hover{
+  color: rgb(0, 106, 80);
 }
 
 .common-description {
@@ -135,6 +157,12 @@ nav .btn {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
+  transition: .3s;
+}
+
+.common-card:hover{
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 16px;
 }
 /*  Pillars of "Bangladesh 2.0" start here */
 
@@ -199,6 +227,11 @@ nav .btn {
   height: 360px;
   box-sizing: border-box;
   border-radius: 16px;
+  transition: .5s;
+}
+
+.common-box:hover{
+  border: 1px solid rgb(0, 106, 80);
 }
 
 .digital h4,
@@ -212,7 +245,15 @@ nav .btn {
   text-align: left;
   margin-bottom: 12px;
   background-color: transparent;
+  transition: .5s;
 }
+
+.digital h4:hover,
+.greenn h4:hover,
+.modern h4:hover{
+  color: rgb(0, 106, 80);
+}
+
 
 .g-btn,
 .m-btn,
@@ -256,6 +297,8 @@ nav .btn {
   padding: 32px;
 }
 
+
+
 .greenn img {
   margin-bottom: 25px;
   background: transparent;
@@ -266,6 +309,7 @@ nav .btn {
   padding: 25px;
 }
 
+
 .modern img {
   margin-bottom: 25px;
   background: transparent;
@@ -273,16 +317,39 @@ nav .btn {
 
 .d-btn {
   background: rgb(84, 144, 245);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.d-btn:hover{
+  border: 1px solid rgb(0, 106, 80);
+  background-color: transparent;
+  color: rgb(0, 106, 80);
 }
 
 .g-btn {
   background: rgb(9, 161, 92);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.g-btn:hover{
+  border: 1px solid rgb(0, 106, 80);
+  background-color: transparent;
+  color: rgb(0, 106, 80);
 }
 
 .m-btn {
   background: rgb(255, 194, 57);
+  transition: .3s;
+  cursor: pointer;
 }
 
+.m-btn:hover{
+  border: 1px solid rgb(0, 106, 80);
+  background-color: transparent;
+  color: rgb(0, 106, 80);
+}
 /* The Vision of Future section end here */
 
 /* quote section start here */
@@ -410,7 +477,18 @@ table select {
   font-weight: 500;
   line-height: 19px;
   font-size: 16px;
+  margin-left: 70px;
 }
+
+table select option{
+  background-color: rgb(198, 228, 214);
+}
+
+table select:hover{
+  border: 1px solid rgb(0, 106, 80);
+}
+
+
 
 /* opinion section end here */
 
@@ -496,6 +574,14 @@ table select {
   border: none;
   border-radius: 8px;
   background: rgb(0, 106, 80);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.recent-btn:hover{
+  border: 1px solid rgb(0, 106, 80);
+  background-color: transparent;
+  color: rgb(0, 106, 80);
 }
 
 .recent_second {
@@ -535,8 +621,12 @@ table select {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
-  /* padding: 40px; */
-  /* text-align: center; */
+  transition: .5s;
+  cursor: pointer;
+}
+
+.common-donate:hover{
+  background-color: aquamarine;
 }
 
 .common-donate h3 {
@@ -556,6 +646,12 @@ table select {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(198, 228, 214);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.active-donate:hover{
+  background-color: aquamarine;
 }
 
 .active-donate h3 {
@@ -638,6 +734,13 @@ table select {
   border-radius: 0px 8px 8px 0px;
   background: rgb(0, 106, 80);
   margin-left: -4px;
+  transition: .5s;
+}
+
+.subscribe-btn:hover{
+  background-color: transparent;
+  border: 1px solid rgb(0, 106, 80);
+  color: #333;
 }
 
 /* subscribe newsletter end here */
@@ -662,6 +765,10 @@ table select {
   text-align: center;
   background-color: rgb(255, 255, 255);
   margin-bottom: 50px;
+}
+
+.padding{
+  padding-right: 23px;
 }
 
 .footer h3{
