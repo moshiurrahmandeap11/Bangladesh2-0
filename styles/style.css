@@ -48,7 +48,7 @@ nav .btn {
   box-sizing: border-box;
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
-  margin-right: 160px;
+  margin-right: 240px;
   transition: .3s;
 }
 
@@ -70,6 +70,7 @@ nav .btn:hover{
   background-color: rgb(198, 228, 214);
   border-radius: 24px;
   margin-bottom: 80px;
+  z-index: 1000;
 }
 
 .hero-container {
@@ -78,6 +79,20 @@ nav .btn:hover{
   justify-content: space-between;
   align-items: center;
   gap: 64px;
+  background-color: transparent;
+  border-radius: 24px;
+}
+
+.hero-intro{
+  background-color: transparent;
+}
+
+.hero-img{
+  background-color:  rgb(198, 228, 214);
+}
+
+.hero-container .hero-img img {
+  background-color:  rgb(198, 228, 214);
 }
 
 .hero-intro h5 {
@@ -87,6 +102,7 @@ nav .btn:hover{
   color: rgba(14, 14, 14, 0.5);
   margin-bottom: 16px;
   text-align: left;
+  background-color: transparent;
 }
 
 .hero-intro h1 {
@@ -96,6 +112,7 @@ nav .btn:hover{
   color: rgb(14, 14, 14);
   margin-bottom: 24px;
   text-align: left;
+  background-color: transparent;
 }
 
 .hero-intro .hero-btn {
