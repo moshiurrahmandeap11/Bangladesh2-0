@@ -58,8 +58,8 @@ nav .btn {
 .hero {
   width: 1280px;
   height: 560px;
-  background-color: rgb(198, 228, 214);
   margin: 0 auto;
+  background-color: rgb(198, 228, 214);
   border-radius: 24px;
   margin-bottom: 80px;
 }
@@ -230,7 +230,7 @@ nav .btn {
 /* The Vision of Future section start here */
 .vof {
   width: 1280px;
-  height: 765px;
+  height: 550px;
   margin: 0 auto;
 }
 
@@ -291,35 +291,355 @@ nav .btn {
   width: 1280px;
   height: 256px;
   margin: 0 auto;
-  margin-top: -270px;
+  margin-bottom: 80px;
 }
 
-.quote-container{
-    padding: 48px 24px;
+.quote-container {
+  padding: 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: url(/images/quote-bg.png), rgb(255, 255, 255);
+  background-position: 24px 24px;
+  background-repeat: no-repeat;
+  z-index: 100;
 }
 
 .quote-description {
+  background: transparent;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: left;
   color: rgba(14, 14, 14, 0.8);
-  background-color: transparent;
   margin-bottom: 12px;
 }
 
-.quote-title{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.8);
-    margin-bottom: 4px;
+.quote-title {
+  background: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 4px;
 }
 
-.quote-sub-description{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.6);
-    background-color: transparent;
+.quote-sub-description {
+  background: transparent;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.6);
 }
+
+/* quote section end here */
+
+/* opinion section start here */
+
+.opinion {
+  width: 1280px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.opinion-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  color: rgb(14, 14, 14);
+}
+
+.opinion-table {
+  padding: 16px 32px;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+table th {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(14, 14, 14);
+}
+
+table thead tr th {
+  background-color: rgb(198, 228, 214);
+  color: #333;
+  font-weight: bold;
+  border-collapse: separate;
+  border: none;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+}
+
+table tbody tr {
+  background-color: #ffffff;
+}
+
+tbody td {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(14, 14, 14);
+}
+
+table select {
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 16px;
+}
+
+/* opinion section end here */
+
+/* recent news start here */
+
+.shared-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.recent-news {
+  width: 1280px;
+  height: 1406px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.recent-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  color: rgb(14, 14, 14);
+}
+
+.recent_first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.satellite img {
+  border-radius: 24px;
+}
+
+.recent-text {
+  background: rgb(255, 255, 255);
+}
+
+.recent-text .r-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: rgba(14, 14, 14, 0.8);
+  background: rgb(255, 255, 255);
+  margin-bottom: 12px;
+}
+
+.recent-img {
+  background: rgb(255, 255, 255);
+}
+
+.recent-img img {
+  margin-bottom: 12px;
+  background: rgb(255, 255, 255);
+}
+
+.time-date {
+  display: flex;
+  gap: 12px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 12px;
+}
+
+.time-date p {
+  background: rgb(255, 255, 255);
+}
+
+.recent-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  padding: 13px 26px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+}
+
+.recent_second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+/* recent news end here */
+
+/* donate section start here */
+
+.donate {
+  width: 1280px;
+  height: 464px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.donate-div-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.common-donate {
+  width: 240px;
+  height: 128px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  /* padding: 40px; */
+  /* text-align: center; */
+}
+
+.common-donate h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  list-style: 48px;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: transparent;
+  padding: 48px;
+}
+
+.active-donate {
+  width: 240px;
+  height: 128px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+.active-donate h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  list-style: 48px;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: transparent;
+  padding: 48px;
+}
+
+.btn-recent {
+  text-align: center;
+}
+
+.donate input[type="text"] {
+  width: 1032px;
+  height: 64px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.3);
+  background: rgb(255, 255, 255);
+  margin: 0px 124px;
+  margin-bottom: 32px;
+}
+
+/* donate section end here */
+
+/* subscribe newsletter start here */
+
+.newsletter {
+  width: 1280px;
+  height: 395px;
+  margin: 0 auto;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.subscribe {
+  background-color: rgb(198, 228, 214);
+  margin-bottom: 25px;
+}
+
+.subscribe input[type="text"] {
+  border-radius: 8px 0px 0px 8px;
+  width: 600px;
+  height: 55px;
+  border: none;
+  outline: none;
+  padding: 0 40px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(14, 14, 14, 0.3);
+  background: rgb(255, 255, 255);
+}
+
+
+.subscribe-btn{
+  width: 150px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  padding: 13px 26px;
+  outline: none;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  margin-left: -4px;
+}
+
+/* subscribe newsletter end here */
+
+/*  */
